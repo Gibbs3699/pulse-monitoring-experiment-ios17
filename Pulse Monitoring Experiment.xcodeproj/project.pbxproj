@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC52C9092AD2C54400450355 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC52C9082AD2C54400450355 /* HeaderView.swift */; };
+		DC52C90B2AD2CA1E00450355 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC52C90A2AD2CA1E00450355 /* LineChartView.swift */; };
+		DC52C90D2AD2CAA600450355 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC52C90C2AD2CAA600450355 /* PreviewProvider.swift */; };
+		DCED05552AD1B1D00015F7BE /* Pulse_Monitoring_ExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCED05542AD1B1D00015F7BE /* Pulse_Monitoring_ExperimentApp.swift */; };
+		DCED05572AD1B1D00015F7BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCED05562AD1B1D00015F7BE /* ContentView.swift */; };
+		DCED05592AD1B1D10015F7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCED05582AD1B1D10015F7BE /* Assets.xcassets */; };
+		DCED055C2AD1B1D10015F7BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCED055B2AD1B1D10015F7BE /* Preview Assets.xcassets */; };
+		DCED05632AD1B1FC0015F7BE /* PulseRateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCED05622AD1B1FC0015F7BE /* PulseRateViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC52C9082AD2C54400450355 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DC52C90A2AD2CA1E00450355 /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		DC52C90C2AD2CAA600450355 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		DCED05512AD1B1D00015F7BE /* Pulse Monitoring Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pulse Monitoring Experiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCED05542AD1B1D00015F7BE /* Pulse_Monitoring_ExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulse_Monitoring_ExperimentApp.swift; sourceTree = "<group>"; };
+		DCED05562AD1B1D00015F7BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCED05582AD1B1D10015F7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCED055B2AD1B1D10015F7BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCED05622AD1B1FC0015F7BE /* PulseRateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseRateViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCED054E2AD1B1D00015F7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC52C90E2AD2DEAD00450355 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DCED05622AD1B1FC0015F7BE /* PulseRateViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DC52C90F2AD2DEC200450355 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCED05562AD1B1D00015F7BE /* ContentView.swift */,
+				DC52C9082AD2C54400450355 /* HeaderView.swift */,
+				DC52C90A2AD2CA1E00450355 /* LineChartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCED05482AD1B1D00015F7BE = {
+			isa = PBXGroup;
+			children = (
+				DCED05532AD1B1D00015F7BE /* Pulse Monitoring Experiment */,
+				DCED05522AD1B1D00015F7BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCED05522AD1B1D00015F7BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCED05512AD1B1D00015F7BE /* Pulse Monitoring Experiment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCED05532AD1B1D00015F7BE /* Pulse Monitoring Experiment */ = {
+			isa = PBXGroup;
+			children = (
+				DC52C90F2AD2DEC200450355 /* View */,
+				DC52C90E2AD2DEAD00450355 /* ViewModel */,
+				DC52C90C2AD2CAA600450355 /* PreviewProvider.swift */,
+				DCED05542AD1B1D00015F7BE /* Pulse_Monitoring_ExperimentApp.swift */,
+				DCED05582AD1B1D10015F7BE /* Assets.xcassets */,
+				DCED055A2AD1B1D10015F7BE /* Preview Content */,
+			);
+			path = "Pulse Monitoring Experiment";
+			sourceTree = "<group>";
+		};
+		DCED055A2AD1B1D10015F7BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCED055B2AD1B1D10015F7BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCED05502AD1B1D00015F7BE /* Pulse Monitoring Experiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCED055F2AD1B1D10015F7BE /* Build configuration list for PBXNativeTarget "Pulse Monitoring Experiment" */;
+			buildPhases = (
+				DCED054D2AD1B1D00015F7BE /* Sources */,
+				DCED054E2AD1B1D00015F7BE /* Frameworks */,
+				DCED054F2AD1B1D00015F7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pulse Monitoring Experiment";
+			productName = "Pulse Monitoring Experiment";
+			productReference = DCED05512AD1B1D00015F7BE /* Pulse Monitoring Experiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCED05492AD1B1D00015F7BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DCED05502AD1B1D00015F7BE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DCED054C2AD1B1D00015F7BE /* Build configuration list for PBXProject "Pulse Monitoring Experiment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCED05482AD1B1D00015F7BE;
+			productRefGroup = DCED05522AD1B1D00015F7BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCED05502AD1B1D00015F7BE /* Pulse Monitoring Experiment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCED054F2AD1B1D00015F7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCED055C2AD1B1D10015F7BE /* Preview Assets.xcassets in Resources */,
+				DCED05592AD1B1D10015F7BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCED054D2AD1B1D00015F7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC52C9092AD2C54400450355 /* HeaderView.swift in Sources */,
+				DCED05632AD1B1FC0015F7BE /* PulseRateViewModel.swift in Sources */,
+				DCED05572AD1B1D00015F7BE /* ContentView.swift in Sources */,
+				DCED05552AD1B1D00015F7BE /* Pulse_Monitoring_ExperimentApp.swift in Sources */,
+				DC52C90D2AD2CAA600450355 /* PreviewProvider.swift in Sources */,
+				DC52C90B2AD2CA1E00450355 /* LineChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DCED055D2AD1B1D10015F7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCED055E2AD1B1D10015F7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCED05602AD1B1D10015F7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pulse Monitoring Experiment/Preview Content\"";
+				DEVELOPMENT_TEAM = 9786TSAYF2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.Pulse-Monitoring-Experiment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCED05612AD1B1D10015F7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pulse Monitoring Experiment/Preview Content\"";
+				DEVELOPMENT_TEAM = 9786TSAYF2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kamonpan.Pulse-Monitoring-Experiment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCED054C2AD1B1D00015F7BE /* Build configuration list for PBXProject "Pulse Monitoring Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCED055D2AD1B1D10015F7BE /* Debug */,
+				DCED055E2AD1B1D10015F7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCED055F2AD1B1D10015F7BE /* Build configuration list for PBXNativeTarget "Pulse Monitoring Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCED05602AD1B1D10015F7BE /* Debug */,
+				DCED05612AD1B1D10015F7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCED05492AD1B1D00015F7BE /* Project object */;
+}
